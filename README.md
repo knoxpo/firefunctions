@@ -1,4 +1,4 @@
-![Alt text](https://firebasestorage.googleapis.com/v0/b/knoxpo-60263.appspot.com/o/public%2Ffcees6.png?alt=media&token=1f75b4fc-daf0-435c-aba7-9328e27a07e8 "FireFunctions")
+![Alt text](https://firebasestorage.googleapis.com/v0/b/knoxpo-60263.appspot.com/o/public%2Ffcees6.png?alt=media&token=57965f2f-280f-4e57-a010-26b5a6220046 "FireFunctions")
 
 # FireFunctions
 Starter kit for Firebase Functions
