@@ -6,11 +6,11 @@ Starter kit for Firebase Functions
 
 ## Features
 
-- Authentication w/ Router Guard
-- Realtime Database CRUD Demo
-- File Uploads to Firebase Storage Demo
-- SASS + Bulma + FontAwesome
-- Reactive Form Validation
+- Firebase Authentication Token Validator
+- Realtime Database CRUD
+- Connect to other Google Cloud Services
+- Base on Express.js
+- ES6 Typing
 
 ## Usage
 
