@@ -2,8 +2,7 @@
 Starter kit for Firebase Functions
 
 - [Live Demo](https://firestarter-96e460.firebaseapp.com/)
-- [Lessons and Screencasts](https://medium.com/knoxpo)
-- [Join the Slack Team](https://join.slack.com/angularfirebase/shared_invite/MjA2NTgxMTI0MTk2LTE0OTg4NTQ4MDAtMjhhZDIzMjc0Mg)
+- [Tutorials and Screencasts](https://medium.com/knoxpo)
 
 ## Features
 
