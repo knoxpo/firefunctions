@@ -12,6 +12,6 @@
 import * as functions from 'firebase-functions'
 import * as admin from 'firebase-admin'
 
-export const trigger = functions.https.onRequest(async (req, res) => {
+export const trigger1 = functions.https.onRequest(async (req, res) => {
   res.send('303, snapshot.ref')
 })

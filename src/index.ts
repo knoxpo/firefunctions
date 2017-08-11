@@ -9,7 +9,7 @@ import * as fs from 'fs'
 import * as http from 'http'
 import * as https from 'https'
 import { ApiBase } from './api'
-import { trigger } from './triggers'
+import { trigger1 } from './triggers'
 
 // FIREBASE FUNCTION INITIALIZATION
 admin.initializeApp(functions.config().firebase)
@@ -37,4 +37,4 @@ export const api = functions.https.onRequest((req, res) => {
 /*
 * EXPORTING EVENT TRIGGERS HERE
 */
-export { trigger }
+export { trigger1 }
