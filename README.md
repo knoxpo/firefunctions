@@ -30,7 +30,7 @@ Create an account at https://firebase.google.com/
 
 Now, you are all set!
 
-#### Get Started With FireFunctions
+#### Getting Started With FireFunctions
 Working with FireFunctions makes Firebase Functions delpoy very easy. All your code goes in `./src` folder. Where all your express API code will go under `./src/api`, model creation will go under `./src/model`, trigger creation will go under `./src/triggers` and all other library initializtion will go under `./src/lib`.   
 
 Full documentation will be updated soon.
