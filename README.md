@@ -3,7 +3,7 @@
 # FireFunctions
 Starter kit for Firebase Functions
 
-- [Live Demo](https://firestarter-96e460.firebaseapp.com/)
+- [Live Demo](https://us-central1-firefunctions-7a16e.cloudfunctions.net/api/)
 - [Tutorials and Screencasts](https://medium.com/knoxpo)
 
 ## Features
