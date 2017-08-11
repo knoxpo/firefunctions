@@ -12,7 +12,7 @@ Starter kit for Firebase Functions
 - Realtime Database CRUD
 - Connect to other Google Cloud Services
 - Base on Express.js
-- ES6 Typing
+- Typing `TypeScript`!! 
 
 ## Usage
 
