@@ -18,23 +18,31 @@ Starter kit for Firebase Functions
 
 Create an account at https://firebase.google.com/
 
+#### Pre-Setup FireFunctions
+- Install Yarn if you don't have Yarn installed `brew install yarn`
+- Install Firebase Tools if you don't already have it installed 
+  `npm install -g firebase-tools` or `sudo npm install -g firebase-tools`
+
+#### Setup FireFunctions
 - `git clone https://github.com/knoxpo/firefunctions.git firefunctions`
-- `cd firefunctions`
-- `npm install` OR `yarn add`
+- Run `cd firefunctions && yarn`
+- Now, initialize firbase functions `firebase init functions`
 
-Create the environment files below in `src/environments/`.
+Now, you are all set!
 
-#### environment.js
+#### Get Started With FireFunctions
+Working with FireFunctions makes Firebase Functions delpoy very easy. All your code goes in `./src` folder. Where all your express API code will go under `./src/api`, model creation will go under `./src/model`, trigger creation will go under `./src/triggers` and all other library initializtion will go under `./src/lib`.   
+
+Full documentation will be updated soon.
+
+Create the environment files below in `./src/environments`
+
+#### environment.ts
 ```javascript
 exports.environment = {
-  firebaseConfig: {
-    apiKey: "APIKEY",
-    authDomain: "DEV-APP.firebaseapp.com",
-    databaseURL: "https://DEV-APP.firebaseio.com",
-    storageBucket: "DEV-APP.appspot.com"
-  }
+  -- ALL YOUR GLOBLE VALUES --
 };
 ```
 
-And finally Deploy: `npm deploy` or `yarn deploy`
+And finally Deploy: `yarn run deploy`
 
