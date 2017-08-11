@@ -1,0 +1,6 @@
+node_modules
+functions
+.firebaserc
+firebase.json
+firbase-debug.log
+yarn.lock
