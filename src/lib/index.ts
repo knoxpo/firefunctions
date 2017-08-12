@@ -8,6 +8,7 @@
 
 // IMPORT LIBRARY HERE
 
+
 /* 
 * Validate Firebase Token ID via `HEADER` or `COOKIE`
 * Source: https://github.com/firebase/functions-samples/blob/master/authorized-https-endpoint/functions/index.js
