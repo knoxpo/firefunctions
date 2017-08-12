@@ -4,7 +4,6 @@
 * AUTHOR: NAYAN HATHIWALA
 * CREATED ON: 10/8/2017
 * DESCRIPTION: All necessary library initialization are to be done in this file.
-* Source: https://github.com/firebase/functions-samples/blob/master/authorized-https-endpoint/functions/index.js
 */
 
 // IMPORT LIBRARY HERE

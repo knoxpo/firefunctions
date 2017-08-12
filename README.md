@@ -26,7 +26,7 @@ Create an account at https://firebase.google.com/
 #### Setup FireFunctions
 - `git clone https://github.com/knoxpo/firefunctions.git firefunctions`
 - Run `cd firefunctions && yarn`
-- Now, initialize firbase functions `firebase init functions`
+- Now, initialize Firebase Functions `firebase init functions`
 
 Now, you are all set!
 
