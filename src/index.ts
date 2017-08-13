@@ -1,4 +1,10 @@
-// src/index.ts
+/* 
+* FILE NAME: index.ts
+* FILE PATH: './'
+* AUTHOR: NAYAN HATHIWALA
+* CREATED ON: 10/8/2017
+* DESCRIPTION: MAIN INDEX.
+*/
 import * as functions from 'firebase-functions'
 import * as admin from 'firebase-admin'
 import * as express from 'express'
@@ -23,14 +29,14 @@ app.use(cookieParser())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-
+// Importing  Base Api to Express app's root
 app.use("/", ApiBase)
 
 /*
 * EXPORTING EXPRESS APP
 */
 export const api = functions.https.onRequest((req, res) => {
-      if (!req.path) req.url = `/${req.url}` // prepend '/' to keep query params if any
+      if (!req.path) req.url = `/${req.url}`
       return app(req, res)
 })
 
